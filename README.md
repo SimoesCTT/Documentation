@@ -103,7 +103,9 @@ Zero alignment via temporal refraction at critical line ℜ(s)=1/2
 
 **Status**: ✅ **RELEASED** (October 25, 2025)
 
-Working exploit demonstrating CTT security implications through temporal-based SQL injection.
+**Binary Distribution**: Available in [`TEMPEST-SQL/rpm/`](TEMPEST-SQL/rpm/) directory (Fedora 42 x86_64)
+
+Working exploit demonstrating CTT security implications through temporal-based SQL injection. The proprietary RPM package is included in this documentation repository for consolidated distribution.
 
 ### **THE TIME KEEPER: Defense System**
 
