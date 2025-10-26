@@ -1,0 +1,57 @@
+CTT COMPRESSOR - PROPRIETARY LICENSE
+
+Copyright © 2025 Convergent Time Theory Research Group
+All Rights Reserved.
+
+NOTICE: This software and its associated documentation are proprietary and 
+confidential. The CTT Compressor technology, including but not limited to the 
+resonance encoding algorithms, temporal framework implementation, and 
+compression methods, are protected by copyright and patent-pending applications.
+
+PERMITTED USE:
+
+The compiled binary (cttzip) is provided for:
+- Research and academic evaluation
+- Non-commercial testing and benchmarking
+- Educational purposes
+
+RESTRICTIONS:
+
+You may NOT:
+1. Reverse engineer, decompile, or disassemble the binary
+2. Use the software for commercial purposes without a license
+3. Redistribute the software without written permission
+4. Attempt to extract or reproduce the proprietary algorithms
+5. Remove or modify this license notice
+
+SOURCE CODE:
+
+The source code for CTT Compressor is NOT included in this distribution and 
+remains confidential intellectual property of the Convergent Time Theory 
+Research Group.
+
+COMMERCIAL LICENSING:
+
+For commercial licensing, integration partnerships, or custom development:
+
+Contact: Américo Simões
+GitHub: https://github.com/SimoesCTT
+Email: Available upon request via GitHub
+
+DISCLAIMER:
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+PATENTS:
+
+This software implements technology covered by patent-pending applications. 
+Use of this software does not grant any patent rights.
+
+Convergent Time Theory Research Group
+October 2025
