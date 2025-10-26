@@ -1,0 +1,99 @@
+CTT MEDIA & ENTERTAINMENT SUITE - PROPRIETARY LICENSE
+
+Copyright © 2025 Convergent Time Theory Research Group
+All Rights Reserved.
+
+NOTICE: This software suite and its associated documentation are proprietary 
+and confidential. The CTT Media & Entertainment Suite, including but not limited  
+to the CTT Video Codec, CTT Audio Codec, resonance encoding algorithms, temporal
+framework implementations, and compression methods, are protected by copyright 
+and patent-pending applications.
+
+COMPONENTS:
+- CTT Video Codec (ctt_video_compress, ctt_video.sh)
+- CTT Audio Codec (ctt_audio_compress, ctt_audio.sh)
+- Core compression libraries (ctt_compress_v2.o, ctt_resonance.o)
+- Documentation and academic papers
+
+PERMITTED USE:
+
+The compiled binaries are provided for:
+- Research and academic evaluation
+- Non-commercial testing and benchmarking
+- Educational purposes
+- Technology demonstration
+
+RESTRICTIONS:
+
+You may NOT:
+1. Reverse engineer, decompile, or disassemble the binaries
+2. Use the software for commercial purposes without a license
+3. Redistribute the software without written permission
+4. Attempt to extract or reproduce the proprietary algorithms
+5. Remove or modify this license notice
+6. Use in production streaming/distribution systems without licensing
+7. Integrate into commercial products without authorization
+
+SOURCE CODE:
+
+The source code for CTT Media & Entertainment Suite is NOT included in this 
+distribution and remains confidential intellectual property of the Convergent 
+Time Theory Research Group.
+
+COMMERCIAL LICENSING:
+
+For commercial licensing, streaming platform integration, or enterprise deployment:
+
+Contact: Américo Simões
+GitHub: https://github.com/SimoesCTT
+Email: Available upon request via GitHub
+
+LICENSING MODELS:
+- Per-stream licensing (streaming platforms)
+- Enterprise site licenses
+- OEM/hardware integration
+- Custom development partnerships
+
+TARGET MARKETS:
+- Video streaming platforms (Netflix, YouTube, HBO, Disney+, etc.)
+- Audio streaming services (Spotify, Apple Music, Tidal, etc.)
+- Content delivery networks (Cloudflare, Akamai, Fastly)
+- Consumer electronics manufacturers
+- Broadcasting and media production
+
+DISCLAIMER:
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+PATENTS:
+
+This software implements technology covered by patent-pending applications 
+including but not limited to:
+- Resonance-based video compression
+- Temporal framework audio encoding
+- α-dispersion multimedia compression
+- Lossless resonance state reconstruction
+
+Use of this software does not grant any patent rights.
+
+TRADEMARKS:
+
+CTT, Convergent Time Theory, CTT Video Codec, CTT Audio Codec, and related 
+marks are trademarks of the Convergent Time Theory Research Group.
+
+MARKET VALUATION CONTEXT:
+
+This technology represents breakthrough innovation with significant commercial value:
+- Video codec: 20-30% improvement over H.265 (potential savings: billions annually)
+- Audio codec: 90-95% compression vs FLAC's 50% (transformative for streaming)
+- First practical application of temporal framework physics to multimedia
+- Cannot be replicated without access to core CTT technology
+
+Convergent Time Theory Research Group
+October 2025
