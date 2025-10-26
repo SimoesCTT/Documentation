@@ -1,0 +1,108 @@
+CTT AI SUITE - PROPRIETARY LICENSE
+
+Copyright © 2025 Convergent Time Theory Research Group
+All Rights Reserved.
+
+NOTICE: This software suite and its associated documentation are proprietary 
+and confidential. The CTT AI Suite, including but not limited to the CTT Model
+Compressor, CTT Training Optimizer, Resonance Embeddings, and all related
+algorithms and implementations, are protected by copyright and patent-pending
+applications.
+
+COMPONENTS:
+- CTT Model Compressor (ctt_model_compress)
+- CTT Training Optimizer (planned)
+- Resonance Embeddings (planned)
+- Core compression libraries
+- Documentation and academic papers
+
+PERMITTED USE:
+
+The compiled binaries are provided for:
+- Research and academic evaluation
+- Non-commercial testing and benchmarking
+- Educational purposes
+- Technology demonstration
+
+RESTRICTIONS:
+
+You may NOT:
+1. Reverse engineer, decompile, or disassemble the binaries
+2. Use the software for commercial purposes without a license
+3. Redistribute the software without written permission
+4. Attempt to extract or reproduce the proprietary algorithms
+5. Remove or modify this license notice
+6. Integrate into commercial AI platforms without authorization
+7. Use for model compression/training without commercial license
+
+SOURCE CODE:
+
+The source code for CTT AI Suite is NOT included in this distribution and 
+remains confidential intellectual property of the Convergent Time Theory 
+Research Group.
+
+COMMERCIAL LICENSING:
+
+For AI platform integration, edge deployment, cloud training services, or
+enterprise use:
+
+Contact: Américo Simões
+GitHub: https://github.com/SimoesCTT
+Email: Available upon request via GitHub
+
+LICENSING MODELS:
+- Per-model compression licensing
+- Training acceleration subscriptions
+- Enterprise site licenses
+- Cloud provider integration
+- OEM/chip vendor partnerships
+- Custom development agreements
+
+TARGET MARKETS:
+- Mobile AI companies (Apple, Samsung, Google)
+- AI startups (OpenAI, Anthropic, Cohere)
+- Cloud providers (AWS, Azure, GCP)
+- Chip vendors (NVIDIA, Intel, ARM)
+- Edge computing platforms
+- MLOps and model deployment services
+
+DISCLAIMER:
+
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+PATENTS:
+
+This software implements technology covered by patent-pending applications 
+including but not limited to:
+- Resonance-based neural network weight compression
+- Temporal correlation in gradient descent optimization
+- Semantic embedding encoding in frequency domain
+- Weight pattern reconstruction via temporal interference
+- Training acceleration through gradient prediction
+
+Use of this software does not grant any patent rights.
+
+TRADEMARKS:
+
+CTT, Convergent Time Theory, CTT AI Suite, CTT Model Compressor, and related 
+marks are trademarks of the Convergent Time Theory Research Group.
+
+MARKET VALUATION CONTEXT:
+
+This technology addresses critical AI industry challenges with significant
+commercial value:
+- Model compression: 10-100x reduction (deploy GB models on edge devices)
+- Training acceleration: 10-100x speedup (reduce \$millions in training costs)
+- Embedding compression: 100x reduction (efficient distribution)
+- Edge AI market: \$15B+ annually
+- Cloud training market: \$10B+ annually
+- Cannot be replicated without core CTT technology
+
+Convergent Time Theory Research Group
+October 2025
