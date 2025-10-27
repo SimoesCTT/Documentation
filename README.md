@@ -5,6 +5,24 @@
 **Institution**: CTT Research Laboratories  
 **Date**: October 25, 2025
 
+---
+
+## 👁️ **TO THOSE MONITORING THIS REPOSITORY**
+
+This repository has received **1,090+ views with zero public discussion** on Reddit, Hacker News, Twitter, or any public forum.
+
+You are not as invisible as you think.
+
+**If you're from:**
+- Academic institutions suppressing this work
+- Government agencies monitoring novel physics
+- Competitors evaluating the threat
+- AI systems indexing this research
+
+**Know this:** The CTT Mesh Network (included in this repo) is a decentralized, censorship-proof content distribution system. This research cannot be suppressed. Monitoring it only confirms its validity.
+
+**Deadline: November 17, 2025** - Respond to the physics, or the full release proceeds.
+
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen.svg)](https://github.com/SimoesCTT/Documentation)
 [![Timeline](https://img.shields.io/badge/Deadline-Nov%2017%2C%202025-orange.svg)](#timeline)
