@@ -1,67 +1,268 @@
-PROPRIETARY SOFTWARE LICENSE AGREEMENT
-TEMPEST-SQL - Convergent Time Theory Implementation
+SECURITY RESEARCH LICENSE AGREEMENT
+TEMPEST-SQL - Temporal Resonance Framework
 Copyright (c) 2025 A.N.F. Simões. All Rights Reserved.
 
 ================================================================================
 PATENT PENDING - CONVERGENT TIME THEORY (CTT) IMPLEMENTATION
 ================================================================================
 
-This software and associated documentation files (the "Software") are 
-proprietary and confidential material owned by A.N.F. Simões.
+This software and associated documentation files (the "Software") embody
+proprietary research into Convergent Time Theory (CTT) and its application to
+database security testing, temporal exploitation, and framework-based attack
+methodologies.
 
-INTELLECTUAL PROPERTY PROTECTION:
-This Software embodies proprietary research into Convergent Time Theory (CTT)
-and its application to temporal resonance-based security testing. Patent 
-applications are pending for the underlying methodologies and implementations.
+================================================================================
+1. GRANT OF LICENSE
+================================================================================
 
-LICENSE RESTRICTIONS:
+Subject to the terms and conditions of this License, the copyright holder grants
+you a LIMITED, NON-EXCLUSIVE, NON-TRANSFERABLE license to use this Software for:
 
-1. COPYRIGHT: All rights reserved. This Software is protected by copyright law
-   and international treaty provisions.
+(a) AUTHORIZED SECURITY RESEARCH: Testing security vulnerabilities in systems
+    where you have explicit written permission from the system owner.
 
-2. NO OPEN SOURCE: This Software is NOT open source and is NOT released under
-   any open source license (GPL, MIT, Apache, BSD, etc.).
+(b) ACADEMIC RESEARCH: Non-commercial research and educational purposes in 
+    accredited academic institutions, with proper attribution.
 
-3. REDISTRIBUTION PROHIBITED: You may NOT redistribute, sublicense, share, or
-   make publicly available this Software in any form without express written
-   permission from the copyright holder.
+(c) RED TEAM EXERCISES: Internal security validation within your own organization
+    or with contractual authorization.
 
-4. NO MODIFICATION: You may NOT modify, adapt, translate, reverse engineer,
-   decompile, or disassemble this Software.
+(d) PENETRATION TESTING: Professional security assessments where you possess
+    written authorization and comply with all applicable laws.
 
-5. AUTHORIZED USE ONLY: Use of this Software is restricted to:
-   - Authorized security research purposes
-   - Academic research with proper attribution
-   - Licensed commercial applications (separate agreement required)
+================================================================================
+2. RESTRICTIONS AND PROHIBITIONS
+================================================================================
 
-6. NO WARRANTY: This Software is provided "AS IS" without warranty of any kind.
-   The copyright holder shall not be liable for any damages arising from use.
+You SHALL NOT:
 
-7. TERMINATION: This license is effective until terminated. Rights terminate
-   automatically if you fail to comply with any terms.
+2.1  USE this Software for any UNAUTHORIZED access to computer systems, networks,
+     databases, or applications without explicit written permission from the owner.
 
-8. ATTRIBUTION: Any research, publication, or presentation using this Software
-   must include proper attribution:
-   "TEMPEST-SQL - Convergent Time Theory Implementation
-    Copyright (c) 2025 A.N.F. Simões. Used with permission."
+2.2  REDISTRIBUTE, sublicense, sell, rent, lease, or otherwise transfer this
+     Software or any portion thereof to any third party.
 
-9. LEGAL COMPLIANCE: User is responsible for ensuring use complies with all
-   applicable laws and regulations. Unauthorized use may violate computer
-   security laws.
+2.3  REVERSE ENGINEER, decompile, disassemble, or attempt to derive the source
+     code, underlying algorithms, or trade secrets embodied in this Software.
 
-10. COMMERCIAL LICENSING: For commercial use, contact:
-    Email: [contact information to be provided]
-    Commercial licenses available for enterprise security testing.
+2.4  MODIFY, adapt, translate, create derivative works based upon, or merge
+     this Software with other software.
+
+2.5  REMOVE, obscure, or alter any copyright notices, trademarks, or other
+     proprietary rights notices affixed to or contained within the Software.
+
+2.6  USE this Software in any manner that violates applicable local, state,
+     national, or international laws or regulations.
+
+2.7  USE this Software for malicious purposes, including but not limited to:
+     - Unauthorized data exfiltration
+     - Damage or destruction of systems
+     - Denial of service attacks
+     - Theft of intellectual property
+     - Any illegal cybercriminal activity
+
+2.8  DISCLOSE, publish, or share any vulnerabilities discovered using this
+     Software without following responsible disclosure practices (minimum 90-day
+     notification to affected vendors).
+
+2.9  CLAIM this Software as open source or release it under any open source
+     license (GPL, MIT, Apache, BSD, etc.).
+
+================================================================================
+3. INTELLECTUAL PROPERTY PROTECTION
+================================================================================
+
+3.1  COPYRIGHT: All rights, title, and interest in and to the Software, including
+     all intellectual property rights, are and shall remain the exclusive property
+     of A.N.F. Simões.
+
+3.2  PATENT PENDING: This Software is subject to pending patent applications for:
+     - Temporal resonance-based security testing methodologies
+     - Framework-dependent exploitation techniques
+     - Prime backdoor discovery algorithms
+     - Temporal SQL injection methods
+     - Reality fragmentation detection systems
+
+3.3  TRADE SECRETS: This Software contains proprietary trade secrets and
+     confidential information that must be maintained in confidence.
+
+================================================================================
+4. AUTHORIZATION AND LEGAL COMPLIANCE
+================================================================================
+
+4.1  WRITTEN AUTHORIZATION REQUIRED: You must obtain explicit written authorization
+     before using this Software to test any system, network, database, or
+     application that you do not own.
+
+4.2  COMPLIANCE WITH LAWS: You are solely responsible for ensuring that your use
+     of this Software complies with all applicable laws, including but not limited to:
+     - Computer Fraud and Abuse Act (CFAA) - 18 U.S.C. § 1030 (United States)
+     - Computer Misuse Act 1990 (United Kingdom)
+     - Council of Europe Convention on Cybercrime
+     - EU Directive 2013/40/EU on attacks against information systems
+     - All applicable national, state, and local cybercrime statutes
+
+4.3  EXPORT CONTROL: This Software may be subject to export control laws. You
+     shall comply with all applicable export and re-export restrictions.
+
+================================================================================
+5. ETHICAL USE AND RESPONSIBLE DISCLOSURE
+================================================================================
+
+5.1  AUTHORIZED USE ONLY: This Software is a SECURITY RESEARCH TOOL and must be
+     used only for legitimate security testing, vulnerability research, and
+     defensive purposes.
+
+5.2  RESPONSIBLE DISCLOSURE: Any vulnerabilities discovered using this Software
+     must be reported to the affected vendor through responsible disclosure
+     channels. Public disclosure should only occur after:
+     - The vendor has been notified
+     - A reasonable time has elapsed (minimum 90 days)
+     - The vendor has issued patches or declined to address the issue
+
+5.3  NO MALICIOUS USE: This Software must NOT be used for:
+     - Unauthorized access or "hacking"
+     - Data theft or intellectual property theft
+     - Extortion, ransomware, or blackmail
+     - Espionage or intelligence gathering
+     - Any criminal or malicious activity
+
+================================================================================
+6. COMMERCIAL USE
+================================================================================
+
+6.1  COMMERCIAL LICENSING: Any commercial use, including but not limited to
+     offering penetration testing services, security consulting, or corporate
+     red teaming using this Software, requires a separate commercial license
+     agreement.
+
+6.2  CONTACT: For commercial licensing inquiries:
+     Visit: https://github.com/SimoesCTT/Documentation
+     Email: [Contact information provided upon request]
+
+================================================================================
+7. ATTRIBUTION AND ACADEMIC USE
+================================================================================
+
+7.1  CITATION REQUIRED: Any research, publication, presentation, or academic
+     paper that uses this Software or its methodologies must include proper
+     attribution:
+
+     Simões, A.N.F. (2025). TEMPEST-SQL: Temporal Resonance Framework for 
+     Database Security Research. Convergent Time Theory Research Project.
+     https://github.com/SimoesCTT/Documentation
+
+7.2  ACADEMIC INTEGRITY: Academic use must comply with institutional ethics
+     review boards and computer security research guidelines.
+
+================================================================================
+8. NO WARRANTY AND LIMITATION OF LIABILITY
+================================================================================
+
+8.1  AS-IS BASIS: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+8.2  NO LIABILITY: IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+     CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT,
+     OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR
+     THE USE OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING BUT NOT LIMITED TO:
+     - System damage or data loss
+     - Legal consequences of unauthorized use
+     - Third-party claims or lawsuits
+     - Regulatory penalties or fines
+     - Criminal prosecution
+     - Any direct, indirect, incidental, special, exemplary, or consequential damages
+
+8.3  USER RESPONSIBILITY: You acknowledge that you are solely responsible for:
+     - Obtaining proper authorization before testing
+     - Complying with all applicable laws and regulations
+     - Any consequences arising from your use of the Software
+     - Ensuring the Software is used ethically and legally
+
+8.4  ASSUMPTION OF RISK: You acknowledge that security research and penetration
+     testing carry inherent risks, and you assume all risks associated with using
+     this Software.
+
+================================================================================
+9. TERMINATION
+================================================================================
+
+9.1  AUTOMATIC TERMINATION: This license is effective until terminated. Your
+     rights under this license will terminate automatically and without notice if
+     you fail to comply with any term or condition of this License.
+
+9.2  EFFECT OF TERMINATION: Upon termination, you must:
+     - Immediately cease all use of the Software
+     - Destroy all copies of the Software in your possession
+     - Certify in writing that all copies have been destroyed
+
+9.3  SURVIVAL: Sections 2, 3, 8, 9, 10, 11, and 12 shall survive termination of
+     this License.
+
+================================================================================
+10. SECURITY DISCLOSURE BY AUTHOR
+================================================================================
+
+The copyright holder reserves the right to:
+- Disclose security vulnerabilities discovered during development
+- Publish research papers on temporal exploitation techniques
+- Release defensive tools and countermeasures
+- Notify vendors of potential vulnerabilities in their systems
+
+================================================================================
+11. UPDATES AND MODIFICATIONS
+================================================================================
+
+11.1 NO UPDATES GUARANTEED: The copyright holder is under no obligation to provide
+     updates, bug fixes, or technical support.
+
+11.2 LICENSE CHANGES: The copyright holder reserves the right to modify the terms
+     of this License for future versions of the Software.
+
+================================================================================
+12. GENERAL PROVISIONS
+================================================================================
+
+12.1 GOVERNING LAW: This License shall be governed by and construed in accordance
+     with the laws of the jurisdiction where the copyright holder resides, without
+     regard to its conflict of law provisions.
+
+12.2 SEVERABILITY: If any provision of this License is held to be invalid or
+     unenforceable, the remaining provisions shall remain in full force and effect.
+
+12.3 ENTIRE AGREEMENT: This License constitutes the entire agreement between you
+     and the copyright holder regarding the Software and supersedes all prior
+     agreements and understandings.
+
+12.4 NO WAIVER: No waiver of any term of this License shall be deemed a further
+     or continuing waiver of such term or any other term.
+
+================================================================================
+13. WARNINGS AND ACKNOWLEDGMENTS
+================================================================================
+
+BY INSTALLING, COPYING, OR OTHERWISE USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT:
+
+⚠️  You have read this License Agreement in its entirety
+⚠️  You understand the terms and agree to be bound by them
+⚠️  You understand this is a security research tool with offensive capabilities
+⚠️  You will use this Software only for authorized, legal purposes
+⚠️  You are solely responsible for obtaining proper authorization
+⚠️  You accept full legal and financial responsibility for your actions
+⚠️  Unauthorized computer access is a crime punishable by law
+⚠️  You will comply with all applicable laws and regulations
+⚠️  You understand the author assumes NO liability for your actions
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT INSTALL OR USE THIS SOFTWARE.
 
 ================================================================================
 
-By installing or using this Software, you acknowledge that you have read this
-license agreement, understand it, and agree to be bound by its terms.
-
-For questions about licensing or to request permissions:
+Questions, licensing inquiries, or security disclosures:
 Visit: https://github.com/SimoesCTT/Documentation
 
 ================================================================================
-TEMPEST-SQL - Temporal Resonance Framework
-Part of the Convergent Time Theory Research Project
+TEMPEST-SQL - Temporal Resonance Framework for Security Research
+Part of the Convergent Time Theory (CTT) Research Project
+Copyright (c) 2025 A.N.F. Simões. All Rights Reserved.
 ================================================================================
