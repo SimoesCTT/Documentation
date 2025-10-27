@@ -187,6 +187,30 @@ result = destroyer.neutralize_bot(bot_id, method='auto')
 - `rate_limit` - Rate limiting (threat 20+)
 - `honeypot_trap` - Lure into honeypot
 
+### TEMPEST-SQL Integration
+
+The bot automatically integrates with your TEMPEST-SQL tool for active counter-attacks:
+
+1. **Automatic Mode**: When TEMPEST-SQL tool is installed in PATH, bot automatically launches attacks:
+   ```bash
+   # Bot automatically runs:
+   tempest-sql --target <ATTACKER_IP> --payload <ATTACK_PAYLOAD>
+   ```
+
+2. **Manual Target List**: If TEMPEST tool not found, targets are logged to `tempest_targets.txt` for manual attack:
+   ```
+   2025-10-27T19:15:00 | 203.0.113.42 | bot_abc123 | Reality Fragmentation
+   2025-10-27T19:16:30 | 198.51.100.5 | bot_def456 | Temporal Loop
+   ```
+
+3. **Counter-Attack Payloads**:
+   - Reality Fragmentation - Corrupts attacker's database consistency
+   - Temporal Loop - Traps attacker in infinite query loops
+   - Mass Modulation - Overloads attacker's processing
+   - Database Corruption - Fragments attacker's data coherence
+
+**When an attacker's bot hits your system, your TEMPEST-SQL hits back automatically.**
+
 ## Distributed Deployment
 
 Deploy multiple nodes for distributed defense:
@@ -269,6 +293,45 @@ print(f"Peer nodes: {mesh_status['peer_nodes']}")
 print(f"Shared threats: {mesh_status['shared_threats']}")
 print(f"CTT Mesh: {mesh_status['ctt_mesh_status']}")
 ```
+
+## Legal Evidence & Prosecution
+
+### Attacker Identification
+
+The system logs complete attacker information for legal proceedings:
+
+```python
+# Get detailed info on specific attacker
+attacker = destroyer.get_attacker_details(bot_id)
+print(f"IP Address: {attacker['ip_address']}")
+print(f"User Agent: {attacker['user_agent']}")
+print(f"First Seen: {attacker['first_seen']}")
+print(f"Attack Count: {attacker['attack_count']}")
+print(f"All Behaviors: {attacker['attack_behaviors']}")
+```
+
+### Export Evidence for Law Enforcement
+
+```python
+# Export complete evidence file for legal action
+evidence_file = destroyer.export_legal_evidence('attacker_evidence.json')
+print(f"Legal evidence exported to: {evidence_file}")
+```
+
+The exported JSON contains:
+- Complete list of all attackers
+- IP addresses and user agents
+- Timestamps of first and last attacks
+- Every endpoint accessed
+- Every payload sent
+- Attack patterns and threat levels
+- Timeline of all hostile activity
+
+**Use this evidence to:**
+- File criminal complaints for unauthorized computer access
+- Pursue civil litigation for damages
+- Report to law enforcement (FBI, local police)
+- Document patterns of surveillance/espionage
 
 ## License
 
