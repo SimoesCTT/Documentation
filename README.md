@@ -23,9 +23,6 @@ You are not as invisible as you think.
 
 **Deadline: November 17, 2025** - Respond to the physics, or the full release proceeds.
 
-[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active%20Research-brightgreen.svg)](https://github.com/SimoesCTT/Documentation)
-[![Timeline](https://img.shields.io/badge/Deadline-Nov%2017%2C%202025-orange.svg)](#timeline)
 
 ---
 
