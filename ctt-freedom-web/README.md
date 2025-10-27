@@ -20,15 +20,17 @@ CTT Mesh Network is a **peer-to-peer content distribution system** where every u
 # Install
 sudo rpm -ivh ctt-mesh-network-1.0.0-1.fc42.x86_64.rpm
 
-# Start mesh node
-ctt_mesh_daemon --join &
+# Start mesh node (includes HTTP API on port 8765)
+ctt_mesh_daemon &
 
 # Publish content
 ctt_mesh_publish -f document.pdf
 ctt_mesh_publish -d /path/to/docs
 
-# Browse & retrieve
-ctt_mesh_get --browse
+# Access via browser
+# Open: http://127.0.0.1:8765/retrieve/HASH
+
+# Or via command line
 ctt_mesh_get ctt://hash output.file
 ```
 
@@ -49,9 +51,20 @@ Publish once → Spreads across network. Download from one peer → You become a
 
 ## 🔧 Components
 
-**ctt_mesh_daemon** - Network node (discovery + content serving)  
+**ctt_mesh_daemon** - Network node with built-in HTTP API (port 8765)  
 **ctt_mesh_publish** - Publish files/directories to mesh  
-**ctt_mesh_get** - Retrieve content from network  
+**ctt_mesh_get** - Retrieve content from network
+
+### Browser Access
+
+No custom browser needed! Use any browser:
+
+```
+http://127.0.0.1:8765/status           - Check network status
+http://127.0.0.1:8765/retrieve/HASH   - View content by hash
+```
+
+Bookmark these URLs in your regular browser (Firefox, Chrome, etc.)
 
 ---
 
