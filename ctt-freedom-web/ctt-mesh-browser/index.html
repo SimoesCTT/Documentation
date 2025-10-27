@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'">
+    <title>CTT Mesh Browser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="browser-chrome">
+        <div class="toolbar">
+            <div class="nav-buttons">
+                <button id="backBtn" class="nav-btn" title="Back">◄</button>
+                <button id="forwardBtn" class="nav-btn" title="Forward">►</button>
+                <button id="refreshBtn" class="nav-btn" title="Refresh">⟳</button>
+                <button id="homeBtn" class="nav-btn" title="Home">⌂</button>
+            </div>
+            
+            <div class="address-bar">
+                <span class="protocol">ctt://</span>
+                <input type="text" id="addressInput" 
+                       placeholder="Enter content hash (SHA-256)..." 
+                       spellcheck="false">
+                <button id="goBtn" class="go-btn">→</button>
+            </div>
+            
+            <div class="status-indicator">
+                <div class="status-dot" id="statusDot"></div>
+                <span id="statusText">Checking...</span>
+            </div>
+        </div>
+        
+        <div class="info-bar" id="infoBar">
+            <span class="info-icon">⚡</span>
+            <span id="infoText">CTT Mesh Network</span>
+            <button class="info-close" onclick="closeInfoBar()">×</button>
+        </div>
+    </div>
+    
+    <div class="content-area">
+        <div class="home-screen" id="homeScreen">
+            <h1>⚡ CTT Mesh Browser</h1>
+            <p class="tagline">The Decentralized Web</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🚫</div>
+                    <h3>No DNS</h3>
+                    <p>Content addressed by hash</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌐</div>
+                    <h3>No Servers</h3>
+                    <p>Pure peer-to-peer</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔬</div>
+                    <h3>Temporal Resonance</h3>
+                    <p>587kHz / 293.5kHz</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Immutable</h3>
+                    <p>Cryptographically verified</p>
+                </div>
+            </div>
+            
+            <div class="quick-start">
+                <h3>Get Started</h3>
+                <p>Enter a content hash in the address bar above</p>
+                <p class="hint">Example: 026766234dfbf84666286f6b49e5c06a4a5b482649025f4af392b47e00f8b09b</p>
+            </div>
+            
+            <div class="network-status">
+                <h3>Network Status</h3>
+                <div class="status-row">
+                    <span>Daemon:</span>
+                    <span id="homeStatusText">Checking...</span>
+                </div>
+                <div class="status-row">
+                    <span>Nodes:</span>
+                    <span id="homeNodeCount">-</span>
+                </div>
+                <div class="status-row">
+                    <span>Cache:</span>
+                    <span id="homeCacheSize">-</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-frame" id="contentFrame" style="display:none;">
+            <iframe id="contentIframe" sandbox="allow-scripts allow-same-origin"></iframe>
+        </div>
+        
+        <div class="loading-screen" id="loadingScreen" style="display:none;">
+            <div class="spinner"></div>
+            <p>Retrieving from mesh network...</p>
+        </div>
+        
+        <div class="error-screen" id="errorScreen" style="display:none;">
+            <div class="error-icon">⚠️</div>
+            <h2>Content Not Available</h2>
+            <p id="errorMessage"></p>
+            <button onclick="showHome()">Return Home</button>
+        </div>
+    </div>
+    
+    <script src="renderer.js"></script>
+</body>
+</html>

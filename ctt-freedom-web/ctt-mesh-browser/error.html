@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CTT Mesh - Error</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+      color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .error-container {
+      max-width: 600px;
+      text-align: center;
+    }
+    
+    .error-icon {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      color: #ff4444;
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    
+    .error-message {
+      background: rgba(255, 68, 68, 0.1);
+      border: 1px solid #ff4444;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 20px 0;
+      color: #ff8888;
+      font-size: 16px;
+    }
+    
+    .help-text {
+      color: #888;
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 20px 0;
+    }
+    
+    .actions {
+      margin-top: 30px;
+    }
+    
+    .btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 24px;
+      background: #00ff88;
+      color: #000;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    
+    .btn:hover {
+      background: #00dd77;
+      box-shadow: 0 0 12px rgba(0, 255, 136, 0.6);
+    }
+    
+    .btn-secondary {
+      background: #333;
+      color: #00ff88;
+    }
+    
+    .btn-secondary:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-icon">⚠️</div>
+    <h1>Content Not Available</h1>
+    
+    <div class="error-message" id="errorMessage">
+      An error occurred while trying to retrieve content from the CTT Mesh Network.
+    </div>
+    
+    <div class="help-text">
+      <p><strong>Possible solutions:</strong></p>
+      <ul style="text-align: left; display: inline-block;">
+        <li>Ensure the CTT Mesh daemon is running (<code>ctt_mesh_daemon</code>)</li>
+        <li>Verify the content hash is valid (64 hex characters)</li>
+        <li>Check if content exists on the network</li>
+        <li>Try again later - peers may be temporarily unavailable</li>
+      </ul>
+    </div>
+    
+    <div class="actions">
+      <a href="#" class="btn" onclick="window.history.back(); return false;">Go Back</a>
+      <a href="welcome.html" class="btn btn-secondary">Help</a>
+    </div>
+  </div>
+  
+  <script>
+    // Extract error message from URL
+    const params = new URLSearchParams(window.location.search);
+    const message = params.get('message');
+    if (message) {
+      document.getElementById('errorMessage').textContent = decodeURIComponent(message);
+    }
+  </script>
+</body>
+</html>
