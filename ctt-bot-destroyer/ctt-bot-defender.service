@@ -1,0 +1,20 @@
+[Unit]
+Description=CTT Bot Defender - Autonomous Active Defense System
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/usr/share/ctt-bot-defender
+ExecStart=/usr/bin/python3 -u /usr/share/ctt-bot-defender/ctt_bot_defender.py --interval 10
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=ctt-bot-defender
+
+[Install]
+WantedBy=multi-user.target
